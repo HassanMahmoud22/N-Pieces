@@ -177,7 +177,7 @@ void menu()
         cout << "6- n Kings" << endl;
         cout << "7- Exit" << endl;
         cin >> choice;
-        if( choice > 6 || choice < 1)
+        if( choice > 7 || choice < 1)
             menu();
         if(choice == 1)
         {
